@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Miranda::Application.config.secret_token = '5a1061aae002959c274f18290476f639a1bc9cb1fe9f3f8a6fbcba8c22c66e1537344c2bf3e0ed73e8358db0bf87466c430f3823945d9792b8408b0809c968c0'
+Miranda::Application.config.secret_token = 'dd1a7b443d4f19187bc3ca9164ec197fb09b0aa08fa4ca5a771d70724f28480e5cfcbb96c08fb6ac6d3d27e761df9371e02198bcc35e1eaa158bd8d34da0f5c5'
