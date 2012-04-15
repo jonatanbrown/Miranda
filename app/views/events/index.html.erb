@@ -1,0 +1,18 @@
+<h1>Listing events</h1>
+
+<table>
+  <tr>
+    <th></th>
+    <th></th>
+    <th></th>
+    <th></th> 
+    <th></th> 
+  </tr>
+
+<%= render :partial => "event", :collection => @events %>
+
+</table>
+
+<br />
+
+<%= link_to 'New Event', new_event_path %>
